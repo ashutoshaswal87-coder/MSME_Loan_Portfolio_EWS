@@ -42,6 +42,7 @@ CSV source files (customers.csv, loans.csv, repayment_transactions.csv, banking_
 ## Source Data -
 
 |   Source File |   Purpose |
+|:--------------|:----------|
 |   customers.csv   |   Customer/Business information   |
 |   loans.csv   |   Loan level information  |
 |   repayment_transactions.csv  |   Repayment and delinquency information   |
@@ -369,6 +370,7 @@ The ews_alerts contains one row per customer × month × alert type.
 The table is structured as follows -
 
 |   Field   |   Purpose |
+|:----------|:----------|
 |   alert_key   |   unique alert identifier |
 |   customer_key    |   for referencing customer records    |
 |   customer_id |   as the raw data is arranged by customer_ids, the output presents the data as per the customer_id    |
