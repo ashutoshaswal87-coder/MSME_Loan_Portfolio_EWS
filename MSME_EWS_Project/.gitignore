@@ -1,0 +1,32 @@
+# local database files
+*.duckdb
+*.duckdb.wal
+*.sqlite
+*.db
+
+# raw data files
+/data/raw
+/data/tmp/
+/data/intermediate
+/exports
+
+# system files
+.DS_Store
+Thumbs.db
+
+# log files and temp files
+logs/
+tmp/
+*.log
+
+# Tooling files
+target/
+.idea/
+.vscode
+_pycache_/
+
+# Misc
+.env
+.env.*
+*.key
+*.pem
