@@ -70,7 +70,8 @@ A Data Engineering project that builds an Early Warning System (EWS) for an MSME
 
     The Data Warehouse is created in a Star Schema formation, with two dimension tables (dim_customers and dim_loans) and three fact tables (fact_repayment_transactions, fact_customer_monthly_snapshot and fact_month_bureau_snapshot).
 
-### Dimensions -
+
+    ### Dimensions -
 
 #### dw.dim_customers
 
