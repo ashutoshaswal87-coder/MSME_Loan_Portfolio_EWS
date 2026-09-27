@@ -27,48 +27,48 @@ A Data Engineering project that builds an Early Warning System (EWS) for an MSME
 
 ## Architecture -
 
-CSV Source Files
-│
-├── customers.csv
-├── loans.csv
-├── repayment_transactions.csv
-├── banking_behaviour.csv
-└── bureau_snapshots.csv
-        │
-        ▼
-Python Ingestion
-        │
-        ▼
-Raw Tables
-        │
-        ▼
-SQL Cleaning
-        │
-        ▼
-Staging Tables
-        │
-        ▼
-Data Warehouse
-        │
-        ├── dim_customers
-        ├── dim_loans
-        ├── fact_repayment_transactions
-        ├── fact_customer_monthly_snapshot
-        └── fact_monthly_bureau_snapshot
-        │
-        ▼
-EWS Feature Layer
-        │
-        ├── ews_repayment_features
-        ├── ews_banking_features
-        ├── ews_bureau_features
-        └── ews_trend_features
-        │
-        ▼
-EWS Risk Logic
-        │
-        ▼
-EWS Alerts
+    CSV Source Files
+    │
+    ├── customers.csv
+    ├── loans.csv
+    ├── repayment_transactions.csv
+    ├── banking_behaviour.csv
+    └── bureau_snapshots.csv
+            │
+            ▼
+    Python Ingestion
+            │
+            ▼
+    Raw Tables
+            │
+            ▼
+    SQL Cleaning
+            │
+            ▼
+    Staging Tables
+            │
+            ▼
+    Data Warehouse
+            │
+            ├── dim_customers
+            ├── dim_loans
+            ├── fact_repayment_transactions
+            ├── fact_customer_monthly_snapshot
+            └── fact_monthly_bureau_snapshot
+            │
+            ▼
+    EWS Feature Layer
+           │
+            ├── ews_repayment_features
+            ├── ews_banking_features
+            ├── ews_bureau_features
+            └── ews_trend_features
+            │
+            ▼
+    EWS Risk Logic
+            │
+            ▼
+    EWS Alerts
 
 
 ## Technology Stack -
